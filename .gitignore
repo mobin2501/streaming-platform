@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+coverage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.project
+.settings/
+.classpath
+*.iml
+*.ipr
+*.iws
+
+# Cache and temporary files
+.cache/
+.temp/
+.tmp/
+*.log
+.eslintcache
+.stylelintcache
+.npmrc
+
+# Testing
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# Platform specific
+.DS_Store
+Thumbs.db
+
+# Yarn v2
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# TypeScript
+*.tsbuildinfo
+
+# Framework specific
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Gatsby
+.cache/
+public/
+
+# Vue
+.vue-temp/
+
+# Serverless
+.serverless/
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.history/
